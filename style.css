@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+  }
+
+.articles {
+    font-family: cursive;
+    text-align: center;
+    font-size: 24px;
+}
+
+.main {
+    font-family: cursive;
+    text-align: center;
+    font-size: 50px;
+    padding: 0px;
+    margin: 20px;
+}
+
+.top, .bottom {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    border-style: solid solid;
+
+}
+
+.first, .third, .fourth {
+    width: 25%;
+    background-color: white;
+    padding: 10px;
+}
+
+.fourth {
+    border: solid 1px black;
+    border-style: none solid none none;
+    width: 25%;
+}
+
+.second {
+    width: 50%;
+    background-color: white;   
+    border: solid 1px black;
+    border-style: none solid none solid;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.politics, .local, .sports{
+    background-color: violet;
+}
+
+.technology, .opinion {
+    background-color: slateblue;
+}
+
+.all-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.three-quarter {
+    width: 75%;
+}
+
+.list {
+    border-right: 1px solid black;
+}
+
+ul {
+
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.section-site {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.section-site:hover {
+    text-decoration: underline;
+}
+
+.section-link {
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 30px;
+    font-weight: bold;
+    font-family: "Futura";
+    color: black;
+}
